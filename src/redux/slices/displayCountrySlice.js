@@ -17,5 +17,5 @@ export const displayCountrySlice = createSlice({
 })
 
 export const {setDisplayCountry, deleteDisplayCountry} = displayCountrySlice.actions
-export const selectDisplay = state => <state className="displayedCountry value"></state>
+export const selectDisplay = state => state.displayedCountry.value
 export default displayCountrySlice.reducer
