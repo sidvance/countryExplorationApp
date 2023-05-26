@@ -15,7 +15,7 @@ const MainDisplay = () => {
                 <button onClick={() => setView("Symbols")}>Symbols</button>
             </div>
             {view === "Overview" && <Overview/>}
-            {view === "Weatherw" && <Weather/>}
+            {view === "Weather" && <Weather/>}
             {view === "Symbols" && <Symbols/>}
         </div>
     );

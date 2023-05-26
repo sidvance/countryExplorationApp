@@ -1,10 +1,10 @@
 import {createSlice} from "@reduxjs/toolkit"
-import {intitialCountry} from "../../assets/initialCountry"
+import initialCountry from "../../assets/initialCountry"
 
 export const displayCountrySlice = createSlice({
     name: "displayCountry",
     initialState: {
-        value: intitialCountry
+        value: initialCountry
     },
     reducers: {
         setDisplayCountry: (state, action) => {
